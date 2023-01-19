@@ -30,7 +30,6 @@ def gypsy_queen(some_str):
 """ Task 2 """
 
 
-
 def checks_phone_number(number):
     """The valid phone number program"""
 
@@ -48,6 +47,8 @@ def checks_phone_number(number):
 """ Task 3 """
 
 import random
+
+
 def math_quiz_program():
     """The math quiz program"""
     number_a = random.randrange(1, 10)
@@ -64,16 +65,13 @@ def math_quiz_program():
     return 0
 
 
-
-
-
 """Task 4"""
+
 
 def name_check(name):
     """The name check"""
     name = str(name)
     name = name.lower()
-
 
     print("The program should compare with the saved")
     name_verify = str(input("input name to verify: "))
@@ -82,10 +80,6 @@ def name_check(name):
         print("Correct")
     else:
         print("Not correct")
-
-
-
-
 
 
 if __name__ == "__main__":
