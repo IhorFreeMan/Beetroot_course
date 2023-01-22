@@ -25,7 +25,7 @@ def greatest_number():
 
     sorted_numbers = sorted(m)
 
-    return print(f"Найбільше число зі списку {m} ", sorted_numbers[-1])
+    return print(f"Найбільше число зі списку {m} це -", sorted_numbers[-1])
 
 
 """
@@ -91,6 +91,6 @@ def extracting_numbers():
 
 
 if __name__ == "__main__":
-    # greatest_number()
-    # exclusive_common_numbers()
+    greatest_number()
+    exclusive_common_numbers()
     extracting_numbers()
