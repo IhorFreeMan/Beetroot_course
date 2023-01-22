@@ -43,8 +43,6 @@ def business_logic(stock_dict, prices_dict):
     return total_price
 
 
-
-
 if __name__ == "__main__":
     str_words = "hello hello I I    4 4 4  6 6 6 8 8 8"
     print("Task 1", same_dict(str_words))
@@ -63,4 +61,3 @@ if __name__ == "__main__":
     }
 
     print("Task 2", business_logic(stock, prices))
-
