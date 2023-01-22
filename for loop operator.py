@@ -7,7 +7,10 @@ Task 1
 
 
 def same_dict(same_str):
-    """Make a program that has some sentence (a string) on input and returns a dict containing all unique words as keys and the number of occurrences as values."""
+    """
+    Make a program that has some sentence (a string) on input and returns
+     a dict containing all unique words as keys and the number of occurrences as values.
+    """
     list_ours_words = same_str.split(" ")
     list_ours_words = list(filter(None, list_ours_words))  # прибираємо пусті строки
 
@@ -34,7 +37,10 @@ Task 2
 
 
 def business_logic(stock_dict, prices_dict):
-    """Compute the total price of the stock where the total price is the sum of the price of an item multiplied by the quantity of this exact item."""
+    """
+    Compute the total price of the stock where the total price is
+    the sum of the price of an item multiplied by the quantity of this exact item.
+    """
     total_price = {}
 
     for kay, value in stock_dict.items():
