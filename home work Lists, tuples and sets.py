@@ -52,6 +52,7 @@ def exclusive_common_numbers():
         n -= 1
 
     list_c = list_a + list_b
+
     result = set(list_c)
 
     return print(
