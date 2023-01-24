@@ -51,15 +51,8 @@ def exclusive_common_numbers():
         list_b.append(random_number_b)
         n -= 1
 
-    n = 20
     list_c = list_a + list_b
-    result = []
-    while n >= 1:
-
-        if list_c[n - 1] not in result:
-            result.append(list_c[n - 1])
-
-        n -= 1
+    result = set(list_c)
 
     return print(
         f"\nСтворено списоки випадкових чисел \n{list_a} \nта {list_b} \nз них сформовано загальний, без дублів {result}. \n")
