@@ -1,0 +1,46 @@
+Index: home work Lists, tuples and sets.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># -*- coding: utf-8 -*-\nimport random\n\n\"\"\"\nTask 1\n\nThe greatest number\n\nWrite a Python program to get the largest number from a list of random numbers with the length of 10\n\nConstraints: use only while loop and random module to generate numbers\n\n\"\"\"\n\n\ndef greatest_number():\n    \"\"\"greatest number\"\"\"\n\n    n = 10\n    m = []\n    while n >= 1:\n        random_number = random.randrange(1, 10)\n        m.append(random_number)\n        n -= 1\n\n    sorted_numbers = sorted(m)\n\n    return print(f\"Найбільше число зі списку {m} це -\", sorted_numbers[-1])\n\n\n\"\"\"\nTask 2\n\nExclusive common numbers.\n\nGenerate 2 lists with the length of 10 with random integers from 1 to 10, and make a third list containing the common integers between the 2 initial lists without any duplicates.\n\nConstraints: use only while loop and random module to generate numbers\n\"\"\"\n\n\ndef exclusive_common_numbers():\n    \"\"\"Exclusive common numbers\"\"\"\n    n = 10\n    list_a = []\n    list_b = []\n    while n >= 1:\n        random_number_a = random.randrange(1, 10)\n        random_number_b = random.randrange(1, 10)\n        list_a.append(random_number_a)\n        list_b.append(random_number_b)\n        n -= 1\n\n    n = 20\n    list_c = list_a + list_b\n    result = []\n    while n >= 1:\n\n        if list_c[n - 1] not in result:\n            result.append(list_c[n - 1])\n\n        n -= 1\n\n    return print(\n        f\"\\nСтворено списоки випадкових чисел \\n{list_a} \\nта {list_b} \\nз них сформовано загальний, без дублів {result}. \\n\")\n\n\n\"\"\"\nTask 3\n\nExtracting numbers.\n\nMake a list that contains all integers from 1 to 100, then find all integers from the list that are divisible by 7 but not a multiple of 5, and store them in a separate list. Finally, print the list.\n\nConstraint: use only while loop for iteration\n\"\"\"\n\n\ndef extracting_numbers():\n    \"\"\"Extracting numbers.\"\"\"\n    n = 100\n    result = []\n    while n >= 1:\n        if n % 7 == 0 and n % 5 != 0:\n             result.append(n)\n        n -= 1\n    return print(f\"\\nЧисла, які діляться на 7, але не кратні 5 з діапазону 100:\\n {result[::-1]}\")\n\n\n\n\n\nif __name__ == \"__main__\":\n    greatest_number()\n    exclusive_common_numbers()\n    extracting_numbers()\n
+===================================================================
+diff --git a/home work Lists, tuples and sets.py b/home work Lists, tuples and sets.py
+--- a/home work Lists, tuples and sets.py	
++++ b/home work Lists, tuples and sets.py	
+@@ -33,8 +33,8 @@
+ 
+ Exclusive common numbers.
+ 
+-Generate 2 lists with the length of 10 with random integers from 1 to 10, and make a third list containing the common integers between the 2 initial lists without any duplicates.
+-
++Generate 2 lists with the length of 10 with random integers from 1 to 10, and make 
++a third list containing the common integers between the 2 initial lists without any duplicates.
+ Constraints: use only while loop and random module to generate numbers
+ """
+ 
+@@ -70,7 +70,9 @@
+ 
+ Extracting numbers.
+ 
+-Make a list that contains all integers from 1 to 100, then find all integers from the list that are divisible by 7 but not a multiple of 5, and store them in a separate list. Finally, print the list.
++Make a list that contains all integers from 1 to 100, 
++then find all integers from the list that are divisible by 7 but not 
++a multiple of 5, and store them in a separate list. Finally, print the list.
+ 
+ Constraint: use only while loop for iteration
+ """
+@@ -82,14 +84,11 @@
+     result = []
+     while n >= 1:
+         if n % 7 == 0 and n % 5 != 0:
+-             result.append(n)
++            result.append(n)
+         n -= 1
+     return print(f"\nЧисла, які діляться на 7, але не кратні 5 з діапазону 100:\n {result[::-1]}")
+ 
+ 
+-
+-
+-
+ if __name__ == "__main__":
+     greatest_number()
+     exclusive_common_numbers()
