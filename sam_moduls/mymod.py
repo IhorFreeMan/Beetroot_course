@@ -7,6 +7,7 @@ def count_lines(name):
     for line in f:
         # print(line)
         sum_a += 1
+    f.close()
     return print("counts the number of lines: ", sum_a)
 
 
@@ -16,6 +17,7 @@ def count_chars(name):
     for line in f:
         word_s = line.strip()
         m.append((word_s, len(word_s)))
+    f.close()
     return print(f"counts the number of characters: {m}")
 
 
