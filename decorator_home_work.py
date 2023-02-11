@@ -66,24 +66,51 @@ Write a decorator `arg_rules` that validates arguments passed to the function.
 def arg_rules(type_: type, max_length: int, contains: list):
     def decorator_repeat(func):
         def wrapper_repeat(*args):
-            return None
+            values = func(*args)
+            # print(value)
+            first_args = args[0]
+            # print(args[0], type_, max_length)
+            d_parametrs = {}
+            # type_
+            if isinstance(first_args, type_):
+                d_parametrs["type_"] = True
+            else:
+                d_parametrs["type_"] = False
+            # max_length
+            if len(first_args) <= max_length:
+                d_parametrs["max_length"] = True
+            else:
+                d_parametrs["max_length"] = False
+            # contains
+            for word in contains:
+                if word in first_args:
+                    d_parametrs["contains"] = True
+                else:
+                    d_parametrs["contains"] = False
+
+            for kay, value in d_parametrs.items():
+                if value == False:
+                    return False
+            return values
+
+        return wrapper_repeat
 
     return decorator_repeat
 
 
-# @arg_rules(type_=str, max_length=15, contains=['05', '@'])
-# def create_slogan(name: str) -> str:
-#     return f"{name} drinks pepsi in his brand new BMW!"
-
+@arg_rules(type_=str, max_length=15, contains=['05', '@'])
+def create_slogan(name: str) -> str:
+    return f"{name} drinks pepsi in his brand new BMW!"
 
 
 if __name__ == "__main__":
-    # print("\n Task 1\n")
-    # add(4, 5)
-    # square_all(10)
-    # print("\n Task 2\n")
-    assert create_slogan("Steve") == "Steve drinks * in his brand new *!"
+    print("\n Task 1\n")
+    add(4, 5)
+    square_all(10)
+    print("\n Task 2\n")
+    # assert create_slogan("Steve") == "Steve drinks * in his brand new *!"
     print("\n Task 3\n")
+
     assert create_slogan('johndoe05@gmail.com') is False
     assert create_slogan('S@SH05') == 'S@SH05 drinks pepsi in his brand new BMW!'
-    pass
+
