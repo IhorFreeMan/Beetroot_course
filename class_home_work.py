@@ -40,8 +40,8 @@ class Dog:
         self.age_dog = age_dog
 
 
-def human_age(self) -> str:
-    return f"dog’s age in human equivalent {self.age_dog * self._age_factor}"
+    def human_age(self) -> str:
+        return f"dog’s age in human equivalent {self.age_dog * self._age_factor}"
 
 
 class TVController:
@@ -99,16 +99,16 @@ class TVController:
 
 
 if __name__ == '__main__':
-    # print("Task 1\n")
-    # CarlJohonson = Person("Johnson", "Carl", 26)
-    # print(CarlJohonson.talk())
-    # print("\nTask 2\n")
-    # VinstonDog = Dog(0.3)
-    # print(VinstonDog.human_age())
-    # print("\nTask 3\n")
+    print("Task 1\n")
+    CarlJohonson = Person("Johnson", "Carl", 26)
+    print(CarlJohonson.talk())
 
+    print("\nTask 2\n")
+    VinstonDog = Dog(0.3)
+    print(VinstonDog.human_age())
+
+    print("\nTask 3\n")
     CHANNELS = ["BBC", "Discovery", "TV1000"]
-
     controller = TVController(CHANNELS)
     assert controller.first_channel() == "BBC"
     assert controller.last_channel() == "TV1000"
