@@ -19,7 +19,7 @@ class Person:
         self.first_name = first_name
         self.age = age
 
-    def talk(self):
+    def talk(self) -> str:
         return f"Hello,my name is {self.first_name} {self.last_name} and I’m {self.age} years old"
 
 
@@ -35,7 +35,7 @@ Then create a method `human_age` which returns the dog’s age in human equivale
 
 
 class Dog:
-    def __init__(self, age_dog=0.0) -> None:
+    def __init__(self, age_dog=0.0):
         self._age_factor = 7
         self.age_dog = age_dog
 

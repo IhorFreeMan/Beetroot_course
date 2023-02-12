@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/class_home_work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator_home_work.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_home_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_home_work.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +259,7 @@
       <workItem from="1676049851148" duration="1183000" />
       <workItem from="1676093521869" duration="10272000" />
       <workItem from="1676126819237" duration="2283000" />
-      <workItem from="1676179650438" duration="17872000" />
+      <workItem from="1676179650438" duration="17938000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1">
       <created>1673759595216</created>
@@ -424,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676179752297</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="class_one ower">
+      <created>1676209676370</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676209676370</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +456,8 @@
     <MESSAGE value="word_play" />
     <MESSAGE value="decorator ower" />
     <MESSAGE value="class_one" />
-    <option name="LAST_COMMIT_MESSAGE" value="class_one" />
+    <MESSAGE value="class_one ower" />
+    <option name="LAST_COMMIT_MESSAGE" value="class_one ower" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
