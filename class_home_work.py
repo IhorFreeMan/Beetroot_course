@@ -39,7 +39,6 @@ class Dog:
         self._age_factor = 7
         self.age_dog = age_dog
 
-
     def human_age(self) -> str:
         return f"dog’s age in human equivalent {self.age_dog * self._age_factor}"
 
@@ -63,15 +62,16 @@ class TVController:
 
     def turn_channel(self, n) -> str:
         """- turns on the N channel. Pay attention that the channel numbers start from 1, not from 0. """
-        self.now_chenl = self.channel.index(self.channel[n - 1])
+        self.now_chenl = self.channel.index(self.channel[n - 1]) + 1
+        # print(self.channel.index(self.channel[n - 1]))
         return self.channel[n - 1]
 
     def next_channel(self) -> str:
         """- turns on the next channel. If the current channel is the last one, turns on the first channel."""
-
-        if self._len_channels > self.now_chenl:
+        # print(self.now_chenl)
+        if self._len_channels > self.now_chenl + 1:
             self.now_chenl += 1
-            return self.channel[self.now_chenl-1]
+            return self.channel[self.now_chenl - 1]
         else:
             self.now_chenl = 1
             return self.channel[0]
@@ -80,14 +80,14 @@ class TVController:
         """- turns on the previous channel. If the current channel is the first one, turns on the last channel."""
         if 0 < self.now_chenl < self._len_channels:
             self.now_chenl -= 1
-            return self.channel[self.now_chenl]
+            return self.channel[self.now_chenl - 1]
         else:
             self.now_chenl = self._len_channels - 1
             return self.channel[-1]
 
     def current_channel(self) -> str:
         """ - returns the name of the current channel."""
-        return self.channel[self.now_chenl]
+        return self.channel[self.now_chenl - 1]
 
     def is_exist(self, n) -> str:
         """- gets 1 argument - the number N or the string 'name' and returns 'Yes', if the channel N or 'name'
@@ -112,13 +112,11 @@ if __name__ == '__main__':
     print("\nTask 3\n")
     CHANNELS = ["BBC", "Discovery", "TV1000"]
     controller = TVController(CHANNELS)
-    # assert controller.first_channel() == "BBC"
-    # assert controller.last_channel() == "TV1000"
-    # assert controller.turn_channel(1) == "BBC"
-    # assert controller.next_channel() == "Discovery"
-    #
-    # assert controller.previous_channel() == "BBC"
-    # assert controller.current_channel() == "BBC"
-    # assert controller.is_exist(4) == "No"
-    # assert controller.is_exist("BBC") == "Yes"
-
+    assert controller.first_channel() == "BBC"
+    assert controller.last_channel() == "TV1000"
+    assert controller.turn_channel(1) == "BBC"
+    assert controller.next_channel() == "Discovery"
+    assert controller.previous_channel() == "BBC"
+    assert controller.current_channel() == "BBC"
+    assert controller.is_exist(4) == "No"
+    assert controller.is_exist("BBC") == "Yes"
