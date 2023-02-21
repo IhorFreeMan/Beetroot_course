@@ -35,11 +35,11 @@ class Cat(Animal):
         return f"Im cat,"
 
 
-def animals_talk(animal_one, anumals_two):
-    print(animal_one, "says")
-    print(animal_one.talk())
-    print(anumals_two, "says")
-    print(anumals_two.talk())
+def animal_talk(animal):
+    print(animal.talk())
+
+
+
 
 
 """
@@ -116,7 +116,6 @@ class Library:
                 d[autor.name] = [str(i) for i in autor.books if i != str(autor.name)]
         return d
 
-
     def group_by_year(self, year: int) -> list:
         """returns a list of all the books grouped by the specified year"""
         rezalt = []
@@ -125,10 +124,8 @@ class Library:
                 rezalt.append((i[0], i[1]))
         return rezalt
 
-
     def __str__(self):
         return f"{self.name}"
-
 
     def __repr__(self):
         return f"{self.name}, {self.books} {self.authors}"
@@ -193,9 +190,10 @@ class Fraction:
 
 if __name__ == '__main__':
     print("Task 1\n")
-    # pluto = Dog()
-    # tom = Cat()
-    # animals_talk(pluto, tom)
+    pluto = Dog()
+    tom = Cat()
+    animal_talk(pluto)
+    animal_talk(tom)
     print(f"{20 * '_'}\nTask 2\n")
 
     jules_vern = Author(name="Jules Vern", country="France", birthday=datetime(1828, 2, 8))
@@ -216,7 +214,6 @@ if __name__ == '__main__':
 
     #  returns a list of all books grouped by the specified author
     print(sam_library.group_by_author("Jules Vern"))
-
 
     # Book class should have a class variable which holds the amount of all existing books
     print("Books : ", Book.empCount)
