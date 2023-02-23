@@ -153,7 +153,7 @@ class Fraction:
             aut = self.b * other.b // math.gcd(self.b, other.b)
             aut1 = ((aut // self.b) * self.a) + ((aut // other.b) * other.a)
 
-            return aut1, aut
+            return self.__class__(aut1, aut)
         else:
             raise Exception("Sorry, there is no 'Fraction'")
 
@@ -226,7 +226,7 @@ if __name__ == '__main__':
     x = Fraction(1, 2)
     y = Fraction(1, 4)
     print(x + y)
-    # assert x + y == Fraction(3, 4)
+    assert x + y == Fraction(3, 4)
     x = Fraction(2, 5)
     y = Fraction(1, 2)
     print(x - y)
