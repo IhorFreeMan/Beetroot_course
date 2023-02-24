@@ -7,8 +7,11 @@ class Pixel:
     def __init__(self, color: Tuple[int, int, int]):
         self.color = color
 
-    def __str__(self):
-        return f'{self.color}'
+    def __eq__(self, other):
+        if not isinstance(other, Pixel):
+            return False
+
+        return all(map(lambda c: c[0] == c[1], zip(self.color, other.color)))
 
 
 class Picture:
@@ -33,8 +36,7 @@ class Picture:
 
         new_pixel = Pixel((result[0], result[1], result[2]))
         new_pixels = [[new_pixel]]
-        return self.__class__(new_pixels)
-
+        return Picture(new_pixels)
 
     def __sub__(self, other):
         if not isinstance(other, Picture):
@@ -55,6 +57,15 @@ class Picture:
         new_pixels = [[new_pixel]]
         return self.__class__(new_pixels)
 
+    def __eq__(self, other):
+        if not isinstance(other, Picture):
+            return False
+
+        for row_s, row_o in zip(self.pixels, other.pixels):
+            for pix_s, pix_o in zip(row_s, row_o):
+                if pix_s != pix_o:
+                    return False
+        return True
 
 
 if __name__ == '__main__':
@@ -62,8 +73,9 @@ if __name__ == '__main__':
         [Pixel((0, 25, 255))]
     ]
 
-    # assert Picture(pxls) + Picture(pxls) == Picture([[Pixel((0, 50, 255))]])
-    # assert Picture(pxls) - Picture(pxls) == Picture([[Pixel((0, 0, 0))]])
+    assert Picture(pxls) + Picture(pxls) == Picture([[Pixel((0, 50, 255))]])
+    assert Picture(pxls) - Picture(pxls) == Picture([[Pixel((0, 0, 0))]])
 
     # print(type(Picture(pxls)))
-    print(Picture(pxls) + Picture(pxls))
+    # print(Picture(pxls) + Picture(pxls))
+    # print(Picture(pxls) - Picture(pxls))

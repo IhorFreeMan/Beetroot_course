@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pixel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/pixel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polymorphis_m.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphis_m.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <recent name="$PROJECT_DIR$/word_play" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pixel">
+  <component name="RunManager" selected="Python.polymorphis_m">
     <configuration name="Gun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="beetr_dz" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,8 +211,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pixel" />
         <item itemvalue="Python.polymorphis_m" />
+        <item itemvalue="Python.pixel" />
         <item itemvalue="Python.game_of_thrones" />
         <item itemvalue="Python.Gun" />
         <item itemvalue="Python.test" />
@@ -278,7 +278,8 @@
       <workItem from="1676870110771" duration="8947000" />
       <workItem from="1676958059949" duration="865000" />
       <workItem from="1677089756738" duration="399000" />
-      <workItem from="1677130446058" duration="7139000" />
+      <workItem from="1677130446058" duration="7523000" />
+      <workItem from="1677215593333" duration="4359000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1">
       <created>1673759595216</created>
@@ -518,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676958829010</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="class_pokimorphism ower1 2">
+      <created>1677168207185</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677168207185</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="lesson 1" />
     <MESSAGE value="lesson 1 correction" />
     <MESSAGE value="lesson 2 veriable" />
     <MESSAGE value="lesson 3 Boolean" />
@@ -562,11 +569,12 @@
     <MESSAGE value="class_inheritanc ower" />
     <MESSAGE value="class_pokimorphism ower" />
     <MESSAGE value="class_pokimorphism ower1" />
-    <option name="LAST_COMMIT_MESSAGE" value="class_pokimorphism ower1" />
+    <MESSAGE value="class_pokimorphism ower1 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="class_pokimorphism ower1 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/beetr_dz$pixel.coverage" NAME="pixel Coverage Results" MODIFIED="1677168167381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$pixel.coverage" NAME="pixel Coverage Results" MODIFIED="1677216969977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$game_words_admin.coverage" NAME="game_words_admin Coverage Results" MODIFIED="1675332601986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sam_moduls" />
     <SUITE FILE_PATH="coverage/beetr_dz$month.coverage" NAME="month Coverage Results" MODIFIED="1673898043186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$has_friday_13.coverage" NAME="has_friday_13 Coverage Results" MODIFIED="1675941142583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -587,7 +595,7 @@
     <SUITE FILE_PATH="coverage/beetr_dz$work_files.coverage" NAME="work_files Coverage Results" MODIFIED="1675498062412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$class_inheritance.coverage" NAME="class_inheritance Coverage Results" MODIFIED="1676454033045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$multiplicity.coverage" NAME="multiplicity Coverage Results" MODIFIED="1674111116223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/beetr_dz$polymorphis_m.coverage" NAME="polymorphis_m Coverage Results" MODIFIED="1677135326991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$polymorphis_m.coverage" NAME="polymorphis_m Coverage Results" MODIFIED="1677219952729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$modul_s.coverage" NAME="modul_s Coverage Results" MODIFIED="1675153884047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$count_print.coverage" NAME="count_print Coverage Results" MODIFIED="1675956733554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$main.coverage" NAME="main Coverage Results" MODIFIED="1675835864335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

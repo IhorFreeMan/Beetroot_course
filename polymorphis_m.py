@@ -39,9 +39,6 @@ def animal_talk(animal):
     print(animal.talk())
 
 
-
-
-
 """
 Task 2
 
@@ -153,7 +150,7 @@ class Fraction:
             aut = self.b * other.b // math.gcd(self.b, other.b)
             aut1 = ((aut // self.b) * self.a) + ((aut // other.b) * other.a)
 
-            return self.__class__(aut1, aut)
+            return Fraction(aut1, aut)
         else:
             raise Exception("Sorry, there is no 'Fraction'")
 
@@ -163,7 +160,7 @@ class Fraction:
             aut = self.b * other.b // math.gcd(self.b, other.b)
             aut1 = ((aut // self.b) * self.a) - ((aut // other.b) * other.a)
 
-            return aut1, aut
+            return Fraction(aut1, aut)
         else:
             raise Exception("Sorry, there is no 'Fraction'")
 
@@ -173,7 +170,7 @@ class Fraction:
             aut = self.a * other.a
             aut1 = self.b * other.b
 
-            return aut, aut1
+            return Fraction(aut, aut1)
         else:
             raise Exception("Sorry, there is no 'Fraction'")
 
@@ -183,9 +180,15 @@ class Fraction:
             aut = self.a * other.b
             aut1 = self.b * other.a
 
-            return aut, aut1
+            return Fraction(aut, aut1)
         else:
             raise Exception("Sorry, there is no 'Fraction'")
+
+    def __eq__(self, other):
+        if not isinstance(other, Fraction):
+            return False
+
+        return self.a == other.a and self.b == other.b
 
 
 if __name__ == '__main__':
@@ -225,13 +228,6 @@ if __name__ == '__main__':
     print(f"{20 * '_'}\nTask 3\n")
     x = Fraction(1, 2)
     y = Fraction(1, 4)
-    print(x + y)
+
     assert x + y == Fraction(3, 4)
-    x = Fraction(2, 5)
-    y = Fraction(1, 2)
-    print(x - y)
-    # assert x + y == Fraction(3, 4)
-    x = Fraction(2, 5)
-    y = Fraction(1, 2)
-    print(x * y)
-    print(x // y)
+
