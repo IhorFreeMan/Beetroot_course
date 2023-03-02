@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my_tel_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_code_country.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +258,9 @@
       <workItem from="1677425235615" duration="258000" />
       <workItem from="1677497599408" duration="4173000" />
       <workItem from="1677517500744" duration="747000" />
-      <workItem from="1677580337747" duration="15363000" />
+      <workItem from="1677580337747" duration="16798000" />
+      <workItem from="1677690265968" duration="599000" />
+      <workItem from="1677735943541" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1">
       <created>1673759595216</created>
@@ -566,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677581853996</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="test_code 2">
+      <created>1677596016765</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677596016765</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +589,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="lesson 5 corrected" />
     <MESSAGE value="lesson 5 corrected 1" />
     <MESSAGE value="lesson 6" />
     <MESSAGE value="lesson 8" />
@@ -610,7 +613,8 @@
     <MESSAGE value="generator 1" />
     <MESSAGE value="generator 2" />
     <MESSAGE value="test_code 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_code 1" />
+    <MESSAGE value="test_code 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_code 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
