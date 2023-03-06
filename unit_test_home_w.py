@@ -31,13 +31,13 @@ class ContextTestCase(unittest.TestCase):
             content = file.read()
             self.assertEqual(content, 'test')
 
-    # def test_exception_logged(self):
-    #     with self.assertRaises(Exception):
-    #         with homework.ContextM(self.filename, 'w') as file1:
-    #             raise Exception('test exception')
-    #     with open('log.txt', 'r') as file2:
-    #         content = file2.read()
-    #         self.assertEqual(content, 'test exception\n')
+    def test_exception_logged(self):
+        with self.assertRaises(Exception):
+            with homework.ContextM(self.filename, 'w') as file1:
+                raise Exception('test exception')
+        with open('log.txt', 'r') as file2:
+            content = file2.read()
+            self.assertEqual(content, 'test exception\n')
 
 
 if __name__ == '__main__':
