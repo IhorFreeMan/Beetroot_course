@@ -38,7 +38,7 @@ class Barista:
     def __init__(self):
         self.salary = 0
 
-    def create(self, create_coffee: TypesCoffee()):
+    def create(self, create_coffee: TypesCoffee):
         self.salary += 1
         self.create_coffee = create_coffee
         return self.create_coffee
