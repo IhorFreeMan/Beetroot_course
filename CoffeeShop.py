@@ -70,7 +70,6 @@ class Order:
         self.index = 1
 
     def set_coffee(self, coffee):
-        print("coffee", type(coffee))
         self.order[self.index] = coffee
         self.index += 1
 
