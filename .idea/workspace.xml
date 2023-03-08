@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffee_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big_o.py" beforeDir="false" afterPath="$PROJECT_DIR$/big_o.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testing_code" />
+        <entry key="$PROJECT_DIR$" value="context_managers" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -289,6 +289,8 @@
       <workItem from="1678090950467" duration="16763000" />
       <workItem from="1678117373328" duration="1892000" />
       <workItem from="1678121360667" duration="1339000" />
+      <workItem from="1678185190526" duration="992000" />
+      <workItem from="1678252251933" duration="552000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1">
       <created>1673759595216</created>
@@ -619,7 +621,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678107112568</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Context_Manager 3">
+      <created>1678185414838</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1678185414838</updated>
+    </task>
+    <task id="LOCAL-00049" summary="big_o">
+      <created>1678185505655</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1678185505655</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,8 +654,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="lesson 9" />
-    <MESSAGE value="lesson 10" />
     <MESSAGE value="lesson 10 done" />
     <MESSAGE value="word_play" />
     <MESSAGE value="decorator ower" />
@@ -663,7 +677,9 @@
     <MESSAGE value="test_code 3" />
     <MESSAGE value="Context_Manager 1" />
     <MESSAGE value="Context_Manager 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Context_Manager 2" />
+    <MESSAGE value="Context_Manager 3" />
+    <MESSAGE value="big_o" />
+    <option name="LAST_COMMIT_MESSAGE" value="big_o" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
