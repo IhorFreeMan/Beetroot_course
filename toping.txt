@@ -1,0 +1,3 @@
+milk - 2
+sugar - 1
+cinnamon - 3

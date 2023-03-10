@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/menu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeShop.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeShop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Big_O" />
+        <entry key="$PROJECT_DIR$" value="Data_structures" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +77,29 @@
       <recent name="$PROJECT_DIR$/word_play" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.for test">
+  <component name="RunManager" selected="Python.CoffeeShop">
+    <configuration name="CoffeeShop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="beetr_dz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoffeeShop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="coffee_shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="beetr_dz" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="for test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="for_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="beetr_dz" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +179,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,35 +210,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="beetr_dz" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.for test" />
+        <item itemvalue="Python.CoffeeShop" />
+        <item itemvalue="Python.for_test" />
         <item itemvalue="Python.data_structures" />
         <item itemvalue="Python.less than three" />
         <item itemvalue="Python.coffee_shop" />
-        <item itemvalue="Python.t" />
       </list>
     </recent_temporary>
   </component>
@@ -296,28 +299,9 @@
       <workItem from="1678117373328" duration="1892000" />
       <workItem from="1678121360667" duration="1339000" />
       <workItem from="1678185190526" duration="992000" />
-      <workItem from="1678252251933" duration="22275000" />
-    </task>
-    <task id="LOCAL-00003" summary="lesson 2 veriable">
-      <created>1673786802277</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673786802277</updated>
-    </task>
-    <task id="LOCAL-00004" summary="lesson 3 Boolean">
-      <created>1673787419552</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673787419552</updated>
-    </task>
-    <task id="LOCAL-00005" summary="lesson 3 Boolean">
-      <created>1673794843115</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673794843115</updated>
+      <workItem from="1678252251933" duration="23514000" />
+      <workItem from="1678289529205" duration="4497000" />
+      <workItem from="1678427806578" duration="4279000" />
     </task>
     <task id="LOCAL-00006" summary="lesson 3 Boolean corrected">
       <created>1674111556767</created>
@@ -641,7 +625,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678261578458</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Data structures 1">
+      <created>1678280080402</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1678280080402</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Coffee Shop">
+      <created>1678280139005</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1678280139005</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Coffee Shop 1">
+      <created>1678280189611</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1678280189612</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,9 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="decorator ower" />
-    <MESSAGE value="class_one" />
-    <MESSAGE value="class_one ower" />
     <MESSAGE value="class_one corect" />
     <MESSAGE value="class_inheritanc" />
     <MESSAGE value="class_inheritanc ower" />
@@ -685,11 +687,14 @@
     <MESSAGE value="big_o" />
     <MESSAGE value="big_o 1" />
     <MESSAGE value="Data structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data structures" />
+    <MESSAGE value="Data structures 1" />
+    <MESSAGE value="Coffee Shop" />
+    <MESSAGE value="Coffee Shop 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coffee Shop 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/beetr_dz$for_test.coverage" NAME="for test Coverage Results" MODIFIED="1678279980768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$for_test.coverage" NAME="for_test Coverage Results" MODIFIED="1678428756245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$pixel.coverage" NAME="pixel Coverage Results" MODIFIED="1677216969977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$less_than_three.coverage" NAME="less than three Coverage Results" MODIFIED="1678121452371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$game_words_admin.coverage" NAME="game_words_admin Coverage Results" MODIFIED="1675332601986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sam_moduls" />
@@ -716,6 +721,7 @@
     <SUITE FILE_PATH="coverage/beetr_dz$tt.coverage" NAME="tt Coverage Results" MODIFIED="1676725410681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$game_of_thrones.coverage" NAME="game_of_thrones Coverage Results" MODIFIED="1676790314558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$boolean.coverage" NAME="boolean Coverage Results" MODIFIED="1674071411179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$CoffeeShop.coverage" NAME="CoffeeShop Coverage Results" MODIFIED="1678431439879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$work_files.coverage" NAME="work_files Coverage Results" MODIFIED="1675498062412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$class_inheritance.coverage" NAME="class_inheritance Coverage Results" MODIFIED="1676454033045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$multiplicity.coverage" NAME="multiplicity Coverage Results" MODIFIED="1674111116223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

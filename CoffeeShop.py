@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from abc import ABC, abstractmethod
 
 
@@ -13,22 +12,28 @@ class ImCoffeeShop(ABC):
 
 class CoffeeShop(ImCoffeeShop):
     def __init__(self):
-        self.menu = {
-            "Americano coffee": 10,
-            "Latte coffee": 14,
-            "Cappuccino": 15,
-        }
-        self.coffee_toppings = {
-            "milk": 2,
-            "sugar": 1,
-            "cinnamon": 3
-        }
+        self.menu = {}
+        self.coffee_toppings = {}
 
     def create_coffee_shop(self):
         return TypesCoffee()
 
     def create_barista(self):
         return Barista()
+
+    def add_menu(self, file):
+        with open(file, "r") as f:
+            for i in f:
+                l = i.strip().split("-")
+                if len(l) == 2:
+                    self.menu[l[0].strip()] = l[1].strip()
+
+    def add_topping(self, file):
+        with open(file, "r") as f:
+            for i in f:
+                l = i.strip().split("-")
+                if len(l) == 2:
+                    self.coffee_toppings[l[0].strip()] = l[1].strip()
 
 
 class TypesCoffee:
@@ -81,7 +86,10 @@ class Order:
 def checkFactory(coffeehouse):
     print('Tasty coffee')
     coffeehouse.create_coffee_shop()
+    coffeehouse.add_menu("menu.txt")
+    coffeehouse.add_topping("toping.txt")
     boob_barista = coffeehouse.create_barista()
+
 
     # menu
     print(f"{20 * '_'}\nMenu:")
@@ -103,11 +111,11 @@ def checkFactory(coffeehouse):
         s_toping = 0
         if value[1]:
             for toping in value[1]:
-                s_toping += coffeehouse.coffee_toppings.get(toping)
+                s_toping += int(coffeehouse.coffee_toppings.get(toping))
 
         print(f"{value[0], value[1]} - {coffeehouse.menu.get(value[0])} usd, toping - {s_toping} usd")
 
-        chek += coffeehouse.menu.get(value[0])
+        chek += int(coffeehouse.menu.get(value[0]))
         chek+=s_toping
     print("tootal: ", chek, "usd")
 
