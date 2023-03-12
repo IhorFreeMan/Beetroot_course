@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/class_work.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node.py" afterDir="false" />
+    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="Data structures list 2">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,21 +299,7 @@
       <workItem from="1678185190526" duration="992000" />
       <workItem from="1678252251933" duration="22275000" />
       <workItem from="1678526693139" duration="3690000" />
-      <workItem from="1678597940469" duration="16146000" />
-    </task>
-    <task id="LOCAL-00004" summary="lesson 3 Boolean">
-      <created>1673787419552</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673787419552</updated>
-    </task>
-    <task id="LOCAL-00005" summary="lesson 3 Boolean">
-      <created>1673794843115</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673794843115</updated>
+      <workItem from="1678597940469" duration="16882000" />
     </task>
     <task id="LOCAL-00006" summary="lesson 3 Boolean corrected">
       <created>1674111556767</created>
@@ -646,7 +630,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678598025384</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Data structures list 2">
+      <created>1678616366078</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1678616366078</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Data structures list 3">
+      <created>1678616706650</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1678616706650</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,8 +663,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="class_one" />
-    <MESSAGE value="class_one ower" />
     <MESSAGE value="class_one corect" />
     <MESSAGE value="class_inheritanc" />
     <MESSAGE value="class_inheritanc ower" />
@@ -690,7 +686,9 @@
     <MESSAGE value="big_o 1" />
     <MESSAGE value="Data structures" />
     <MESSAGE value="Data structures list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data structures list" />
+    <MESSAGE value="Data structures list 2" />
+    <MESSAGE value="Data structures list 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data structures list 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
