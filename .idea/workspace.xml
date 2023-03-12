@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="Data structures list 7">
+    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -298,21 +298,7 @@
       <workItem from="1678185190526" duration="992000" />
       <workItem from="1678252251933" duration="22275000" />
       <workItem from="1678526693139" duration="3690000" />
-      <workItem from="1678597940469" duration="19639000" />
-    </task>
-    <task id="LOCAL-00017" summary="lesson 8">
-      <created>1675083135031</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1675083135031</updated>
-    </task>
-    <task id="LOCAL-00018" summary="lesson 9">
-      <created>1675153446171</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1675153446171</updated>
+      <workItem from="1678597940469" duration="19948000" />
     </task>
     <task id="LOCAL-00019" summary="lesson 10">
       <created>1675413427579</created>
@@ -643,7 +629,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678619854727</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Data structures list 7">
+      <created>1678620017402</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1678620017402</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Data structures list 7">
+      <created>1678620043488</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1678620043488</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
