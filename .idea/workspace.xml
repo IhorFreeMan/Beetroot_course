@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="Data structures list 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,35 +298,7 @@
       <workItem from="1678185190526" duration="992000" />
       <workItem from="1678252251933" duration="22275000" />
       <workItem from="1678526693139" duration="3690000" />
-      <workItem from="1678597940469" duration="18717000" />
-    </task>
-    <task id="LOCAL-00013" summary="lesson 6 dicts">
-      <created>1674380756714</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1674380756714</updated>
-    </task>
-    <task id="LOCAL-00014" summary="lesson 5 corrected">
-      <created>1674559746700</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1674559746700</updated>
-    </task>
-    <task id="LOCAL-00015" summary="lesson 5 corrected 1">
-      <created>1674564921239</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1674564921239</updated>
-    </task>
-    <task id="LOCAL-00016" summary="lesson 6">
-      <created>1675083011223</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1675083011223</updated>
+      <workItem from="1678597940469" duration="19639000" />
     </task>
     <task id="LOCAL-00017" summary="lesson 8">
       <created>1675083135031</created>
@@ -644,7 +615,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678618636791</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Data structures list 6">
+      <created>1678619114514</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619114514</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Data structures list 6">
+      <created>1678619163199</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619163199</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Data structures list 7">
+      <created>1678619373516</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619373516</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Data structures list 7">
+      <created>1678619854727</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619854727</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +662,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="class_inheritanc ower" />
     <MESSAGE value="class_pokimorphism ower" />
     <MESSAGE value="class_pokimorphism ower1" />
     <MESSAGE value="class_pokimorphism ower1 2" />
@@ -688,7 +686,8 @@
     <MESSAGE value="Data structures list 3" />
     <MESSAGE value="Data structures list 4" />
     <MESSAGE value="Data structures list 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data structures list 6" />
+    <MESSAGE value="Data structures list 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data structures list 7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -710,7 +709,7 @@
     <SUITE FILE_PATH="coverage/beetr_dz$class_home_work.coverage" NAME="class_home_work Coverage Results" MODIFIED="1676374497193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$coffee_shop.coverage" NAME="coffee_shop Coverage Results" MODIFIED="1678119071378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$class_decorators.coverage" NAME="class_decorators Coverage Results" MODIFIED="1677252392938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/beetr_dz$data_structures_list.coverage" NAME="data_structures_list Coverage Results" MODIFIED="1678616319897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$data_structures_list.coverage" NAME="data_structures_list Coverage Results" MODIFIED="1678619336100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$my_test_code.coverage" NAME="my_test_code Coverage Results" MODIFIED="1677582268625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$data_structures.coverage" NAME="data_structures Coverage Results" MODIFIED="1678432580209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1673762193884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
