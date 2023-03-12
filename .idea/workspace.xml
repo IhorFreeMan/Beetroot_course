@@ -61,7 +61,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -74,7 +74,7 @@
       <recent name="$PROJECT_DIR$/word_play" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.for test">
+  <component name="RunManager" selected="Python.data_structures">
     <configuration name="coffee_shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="beetr_dz" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,8 +209,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.for test" />
         <item itemvalue="Python.data_structures" />
+        <item itemvalue="Python.for test" />
         <item itemvalue="Python.less than three" />
         <item itemvalue="Python.coffee_shop" />
         <item itemvalue="Python.t" />
@@ -297,6 +297,7 @@
       <workItem from="1678121360667" duration="1339000" />
       <workItem from="1678185190526" duration="992000" />
       <workItem from="1678252251933" duration="22275000" />
+      <workItem from="1678526693139" duration="3690000" />
     </task>
     <task id="LOCAL-00003" summary="lesson 2 veriable">
       <created>1673786802277</created>
@@ -689,7 +690,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1674286766038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/beetr_dz$for_test.coverage" NAME="for test Coverage Results" MODIFIED="1678279980768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$for_test.coverage" NAME="for_test Coverage Results" MODIFIED="1678428756245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$pixel.coverage" NAME="pixel Coverage Results" MODIFIED="1677216969977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$less_than_three.coverage" NAME="less than three Coverage Results" MODIFIED="1678121452371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$game_words_admin.coverage" NAME="game_words_admin Coverage Results" MODIFIED="1675332601986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sam_moduls" />
@@ -708,7 +709,7 @@
     <SUITE FILE_PATH="coverage/beetr_dz$coffee_shop.coverage" NAME="coffee_shop Coverage Results" MODIFIED="1678119071378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$class_decorators.coverage" NAME="class_decorators Coverage Results" MODIFIED="1677252392938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$my_test_code.coverage" NAME="my_test_code Coverage Results" MODIFIED="1677582268625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/beetr_dz$data_structures.coverage" NAME="data_structures Coverage Results" MODIFIED="1678261525491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$data_structures.coverage" NAME="data_structures Coverage Results" MODIFIED="1678432580209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1673762193884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$test.coverage" NAME="test Coverage Results" MODIFIED="1676537630570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$nested_functions_1.coverage" NAME="nested functions 1 Coverage Results" MODIFIED="1675927684965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -716,6 +717,7 @@
     <SUITE FILE_PATH="coverage/beetr_dz$tt.coverage" NAME="tt Coverage Results" MODIFIED="1676725410681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$game_of_thrones.coverage" NAME="game_of_thrones Coverage Results" MODIFIED="1676790314558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$boolean.coverage" NAME="boolean Coverage Results" MODIFIED="1674071411179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beetr_dz$CoffeeShop.coverage" NAME="CoffeeShop Coverage Results" MODIFIED="1678431439879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$work_files.coverage" NAME="work_files Coverage Results" MODIFIED="1675498062412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$class_inheritance.coverage" NAME="class_inheritance Coverage Results" MODIFIED="1676454033045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beetr_dz$multiplicity.coverage" NAME="multiplicity Coverage Results" MODIFIED="1674111116223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
