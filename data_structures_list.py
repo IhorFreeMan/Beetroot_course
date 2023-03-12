@@ -231,6 +231,7 @@ if __name__ == "__main__":
     my_list.add(54)
     my_list.append(1)
     my_list.append(2)
+    my_list.append(3)
     # print(my_list.index(1))
     my_list.pop(7)
     my_list.insert(index=0, element=7)
