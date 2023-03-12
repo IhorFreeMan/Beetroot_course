@@ -206,6 +206,7 @@ class Queue:
         previous._next = None
         return current
 
+
     def __repr__(self):
         representation = "<Queue: "
         current = self._head

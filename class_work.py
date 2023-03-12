@@ -45,6 +45,7 @@ class LinkedList:
 
 
 
+
 if __name__ == "__main__":
     my_list = LinkedList()
     my_list.add(5)
