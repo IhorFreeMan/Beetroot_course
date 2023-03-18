@@ -91,3 +91,8 @@ if __name__ == "__main__":
     print(bin_search(rand_numb, m, 0, len(m)))  # Логарифмічна складність - O(logn)
 
     print(fibonacci_search(m, rand_numb))  # Логарифмічна складність - O(logn)
+
+
+
+
+
