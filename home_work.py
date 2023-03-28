@@ -82,45 +82,19 @@ a random list of integers. Perform analysis using different list sizes for the p
 """
 
 
-def quick_sort(array):
-    quick_sort_helper(array, 0, len(array) - 1)
+def quicksort(arr, partition_limit=6):
+    if len(arr) <= 1:
+        return arr
 
+    if len(arr) <= partition_limit:
+        return insertion_sort(arr)
 
-def quick_sort_helper(array, first, last):
-    if first < last:
-        split_point = partition(array, first, last)
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
 
-        quick_sort_helper(array, first, split_point - 1)
-        quick_sort_helper(array, split_point + 1, last)
-
-
-def partition(array, first, last):
-    pivot_value = array[first]
-
-    left_mark = first + 1
-    right_mark = last
-
-    done = False
-    while not done:
-
-        while left_mark <= right_mark and array[left_mark] <= pivot_value:
-            left_mark = left_mark + 1
-
-        while array[right_mark] >= pivot_value and right_mark >= left_mark:
-            right_mark = right_mark - 1
-
-        if right_mark < left_mark:
-            done = True
-        else:
-            temp = array[left_mark]
-            array[left_mark] = array[right_mark]
-            array[right_mark] = temp
-
-    temp = array[first]
-    array[first] = array[right_mark]
-    array[right_mark] = temp
-
-    return right_mark
+    return quicksort(left) + middle + quicksort(right)
 
 def insertion_sort(array):
     for i in range(1, len(array)):
@@ -152,5 +126,5 @@ if __name__ == '__main__':
     """
     import random
     test_list = [random.randint(1, 100) for _ in range(23)]
-    quick_sort(test_list)
-    print(test_list)
+    sorted_list = quicksort(test_list)
+    print(sorted_list)
