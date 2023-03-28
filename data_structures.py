@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import stack
 
 """
 Task 1
@@ -38,21 +38,31 @@ and determines whether it's parentheses, braces, and curly brackets are "balance
 """
 
 
+
 def chek_balanced(elem: CorrectedStack) -> bool:
-    d = {"(": 0,
-         ")": 0,
-         "{": 0,
-         "}": 0,
-         }
+    s = Stack()
 
-    rez = True
-    for i in elem:
-        if d.get(i) != None:
-            d[i] += 1
 
-    if d.get("(") != d.get(")") or d.get("{") != d.get("}"):
+    def serch(element_one, element_twu):
         rez = False
-    return rez
+        for i in elem:
+            if i == element_one:
+                s.push(i)
+
+            if i == element_twu:
+                try:
+                    s.pop()
+                except IndexError:
+                    return rez
+
+        if s.is_empty() == False:
+            rez = True
+            return rez
+
+    if serch("(", ")") and serch("{", "}"):
+        return True
+    else:
+        return False
 
 
 
@@ -66,6 +76,8 @@ Extend the Queue to include a method called get_from_stack that searches and ret
 Any other element must remain in the queue respecting their order.
  Consider the case in which the element is not found - raise ValueError with proper info Message
 """
+
+
 class Stack:
     def __init__(self):
         self._items = []
@@ -142,7 +154,6 @@ class Queue:
         return self.__repr__()
 
 
-
 if __name__ == "__main__":
     print(f"{20 * '_'}\nTask 1\n")
     s = CorrectedStack()
@@ -178,9 +189,3 @@ if __name__ == "__main__":
     print(st)
     print("Queue", st.get_from_stack("2"))
     # print(queue.get_from_stack("4"))
-
-
-
-
-
-
