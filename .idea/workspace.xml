@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="" />
+    <list default="true" id="1581af70-585f-4364-a4b9-64d8bdbba016" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flows.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Data_structures" />
+        <entry key="$PROJECT_DIR$" value="Flows" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -298,13 +302,7 @@
       <workItem from="1680073325188" duration="8205000" />
       <workItem from="1680107613351" duration="2292000" />
       <workItem from="1680160118311" duration="2734000" />
-    </task>
-    <task id="LOCAL-00006" summary="lesson 3 Boolean corrected">
-      <created>1674111556767</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1674111556767</updated>
+      <workItem from="1680265883292" duration="593000" />
     </task>
     <task id="LOCAL-00007" summary="lesson 4 input">
       <created>1674114536026</created>
@@ -642,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680162754758</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Multiprocessing">
+      <created>1680265948742</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1680265948742</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +666,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="class_one corect" />
     <MESSAGE value="class_inheritanc" />
     <MESSAGE value="class_inheritanc ower" />
     <MESSAGE value="class_pokimorphism ower" />
@@ -686,7 +690,8 @@
     <MESSAGE value="Data structures 2" />
     <MESSAGE value="Flows" />
     <MESSAGE value="Flows 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flows 1" />
+    <MESSAGE value="Multiprocessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiprocessing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/beetr_dz$dz.coverage" NAME="dz Coverage Results" MODIFIED="1680011934850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
