@@ -21,6 +21,8 @@ algorithm by a specific key obtained from the client.
 
 
 
+
+
 if __name__ == '__main__':
     print(f"{20 * '_'}\nTask 1\n")
     # Set the IP address and port number
@@ -30,6 +32,8 @@ if __name__ == '__main__':
     # UDP_Client.UDP_client(IP, PORT)
 
     print(f"{20 * '_'}\nTask 2\n")
+
+
 
 
 
