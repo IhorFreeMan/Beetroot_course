@@ -36,6 +36,26 @@ Create a socket echo server which handles each connection in a separate Thread
 """
 
 
+import socket
+
+def echo_server(host, port):
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind((host, port))
+        s.listen()
+        print(f'Server {host}:{port}')
+
+        while True:
+            conn, addr = s.accept()
+            print(f'Connected {addr}')
+
+            with conn:
+                while True:
+                    data = conn.recv(1024)
+                    if not data:
+                        break
+                    conn.sendall(data)
+
+
 """
 Task 3
 
@@ -49,16 +69,22 @@ As a result, store all comments in chronological order in JSON and dump it to a 
 """
 import requests
 import json
-from multiprocessing.pool import ThreadPool
+from concurrent.futures import ThreadPoolExecutor
 
+def reddit(username):
+    response = requests.get(url=f"https://api.pushshift.io/reddit/comment/search", params={
+        "subreddit": username,
+    })
 
-
-def download_comments():
-    url = f"https://api.pushshift.io/reddit/comment/search"
-    response = requests.get(url)
     data = response.json()
-    comments = data['data']
-    return comments
+
+    comments = data["data"]
+    # pprint(comments)
+    comments = sorted(comments, key=lambda x: x["created_utc"])
+
+    with open("comments.json", "w") as f:
+        with ThreadPoolExecutor() as executor:
+            results = executor.map(json.dump, [comments], [f])
 
 
 
@@ -72,18 +98,11 @@ if __name__ == '__main__':
 
     print(Counter())
 
+    print(f"{20 * '_'}\nTask 2\n")
+
+    server_thread = threading.Thread(target=echo_server, args=('localhost', 5000))
+    server_thread.start()
+
     print(f"{20 * '_'}\nTask 3\n")
+    reddit("television")
 
-    t = download_comments()
-    subreddit = t[0].get("subreddit")  # беремо першого subreddit
-    print(subreddit)
-    # print(t[2].get("subreddit"))
-    # print(t[2].get("created_utc"))
-    # print(t[2].get("body"))
-
-    comments = ThreadPool(4).map(download_comments, [subreddit] * 4)
-    print(comments)
-    # all_comments = [comment for sublist in comments for comment in sublist]
-    # all_comments = sorted(all_comments, key=lambda x: x['created_utc'])
-    # with open(f"{subreddit}_comments.json", "w") as f:
-    #     json.dump(all_comments, f)
