@@ -178,6 +178,7 @@ def sort_pf():
     except Exception as s:
         return f"Error!! {s}"
 
+
 def salary_max_min():
     """
     write a query to get the maximum and minimum salary from the employees table
@@ -211,6 +212,7 @@ def monthly_salary():
 
     except Exception as s:
         return f"Error!! {s}"
+
 
 if __name__ == '__main__':
     # print(f"{20 * '_'}\nTask 1\n")
