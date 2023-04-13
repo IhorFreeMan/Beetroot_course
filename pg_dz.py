@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import psycopg2
-
+import config
 
 def search_managers():
     """
@@ -9,7 +9,7 @@ def search_managers():
     employ = []
     try:
         # Connect to your postgres DB
-        conn = psycopg2.connect(host="3.71.99.74", port=5433, database="hr", user="postgres", password="RootBeet-101")
+        conn = psycopg2.connect(host=config.host, port=config.port, database=config.database, user=config.user, password=config.password)
 
         # Open a cursor to perform database operations
         cur = conn.cursor()
@@ -40,7 +40,7 @@ def search_job_title():
     employ = []
     try:
         # Connect to your postgres DB
-        conn = psycopg2.connect(host="3.71.99.74", port=5433, database="hr", user="postgres", password="RootBeet-101")
+        conn = psycopg2.connect(host=config.host, port=config.port, database=config.database, user=config.user, password=config.password)
 
         # Open a cursor to perform database operations
         cur = conn.cursor()
